@@ -1,0 +1,18 @@
+List of Possible Words:
+
+1) Thailand: Pad Thai
+2) Canada: Poutine 
+3) Scotland: Haggis 
+4) Peru: Ceviche 
+5) India: Biryani
+6) Spain: Paella 
+7) Philippines: Lumpia
+8) Indonesia: Nasi Goreng 
+9) China: Peking Duck
+10) Greece: Gyros
+11) Nepal: Momo
+12) Singapore: Hainanese Chicken Rice
+13) Mexico: Enchiladas 
+14) Korea: Bibimbap
+15) Malaysia: Nasi Lemak
+16) Australia: Meat Pie 

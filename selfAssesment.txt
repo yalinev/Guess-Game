@@ -1,0 +1,28 @@
+Self Assesment  
+
+Concept Coverage: 15
+- Use of for loops, while loops, switch cases, if statements, vectors
+- Does not contain the use of a matrix mainly as it was not needed in this program
+
+
+Value add: 17
+- Use of images, functions, self drawn images and writing, ASCII art, new MATLAB functions, exploring text options (example: <strong> <strong> ) 
+
+
+Incremental Design: 15
+- Small changes to the program was not documented, however bigger changes were
+documented
+- The program was planned out before it was coded shown in the txt files
+- In versions of the code, comments were added to document errors and features to implement
+
+
+Testing: 15
+- All functions were tested with drivers
+- Some program versions do not run or do not run as intended, so they cannot be tested. But all versions of the code that works is tested
+
+
+Comments & style: 20 
+- Consistent use of indenting shown throughout the program
+- Code that require explaining is always commented to alieviate confusion 
+- Links are added to comments 
+- Variables are named appropriately 

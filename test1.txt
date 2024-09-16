@@ -1,0 +1,31 @@
+Test Case 1: Unknown Display 
+
+Initial Test: Using repmat() function
+
+Input: Haggis 
+Expected Output: ******
+Actual Output: ******
+
+Input: Pad Thai 
+Expected Output: *** ****
+Actual Output: ********
+
+While this method works for words without spaces, it does not take into account the spaces and hence may confuse the player 
+
+Final Test: Using isstrprop() function
+
+Input: Nasi Lemak 
+Expected Output: **** *****
+Actual Output: **** *****
+
+Input: Momo 
+Expected Output: ****
+Actual Output: ****
+
+Using this method works for both variations 
+
+
+
+
+
+

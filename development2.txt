@@ -1,0 +1,45 @@
+How The Game Works:
+
+- Welcomes user to game & explains rules 
+
+- Intially the uesr is given a total of 10 lives 
+
+- Extra life is gained from making correct guesses 
+
+- After user is on their 3rd life the program will display hints for the dish  
+
+
+Program Creation: 
+
+- Store words in a 1x1 vector, word picked will be randomly generated
+
+- After being chosen, convert string to char in order to check individual characters 
+
+- Produce hidden word with strlength, in the form of '******'
+
+- Display game explanation & rules to player, and their initial life 
+
+- Display the unknown word to user, unknown word should be updated after each user input (ex. ***a***)
+
+- After the player runs out of hearts, or once the use correctly guesses the word > They are given the option to quit
+
+- If incorrect, display the incorrect char and tell player 
+
+- Reduce life acccording to inccorect guess 
+
+
+Main script:
+ 
+- hangman
+
+
+Functions:
+ 
+- guess(): This function returns the hearts the user has remaining, and it performs the checking of the player's input 
+
+- foodInfo(): This function will be used after the player correctly guesses the full word (No return variable)
+
+- hints(): This function will be used after the number of hearts is == 3 (No return variable) 
+
+
+

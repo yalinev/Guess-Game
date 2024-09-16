@@ -1,0 +1,25 @@
+For testGuessingLoop.m (Renamed) 
+
+When trying to run the program, it does not run as intended.
+For example trying to guess the unknown word: **** ***
+
+Input: a
+
+Output: 
+ Wrong guess! 
+ Wrong guess! 
+ Correct guess! 
+  
+ Wrong guess! 
+ Wrong guess! 
+ Wrong guess! 
+ Wrong guess! 
+ Wrong guess! 
+
+'Meat Pie' is the unknown word, and it appears that the loop is outputting at each index whether or not the character matches. 
+
+The issue was found to be the location in which the for loop was placed. 
+
+The fix (Unfixed at This Stage):
+The loop was taken out as this stage as it was found that the code inside the loop was not running as intended. 
+

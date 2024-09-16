@@ -1,0 +1,18 @@
+Changes Through Development: 
+
+- Updates the word each time so user can keep track of what they have inputted correctly 
+
+- When the unkown word is displayed to the user, a space in the word does not count as a character. This is to not confuse the player. 
+
+- Increased number of hearts because intially 5 hearts for guessing is too difficult 
+
+- Lets player know if they inputted an incorrect letter 
+
+- Lets the player know how many hearts they have remaining 
+
+- Giving the user a hint at 1 heart would be too difficult and would not give them much chance, so it was increased to 3 hearts 
+
+
+
+
+

@@ -1,0 +1,9 @@
+READ
+
+Main script: 
+hangman.m
+
+Functions:
+-foodInfo.m
+-guess.m
+-hints.m

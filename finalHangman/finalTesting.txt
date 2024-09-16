@@ -1,0 +1,264 @@
+FINAL TESTING FOR HANGMAN:
+
+To simplify and shorten the testing document, the game's greetting will be written as ->(GREETING) 
+
+The input is always on the right side of the writing. If a line of writing is asking a question, it can be assumed that the text to the right after the colon is player input. 
+
+1st run: 
+(GREETING) 
+Are you ready to start? (1 = Yes, 0 = No): 0
+
+  Goodbye!
+(Image pops up saying goodbye) 
+
+
+2nd run: 
+(GREETING) 
+  Are you ready to start? (1 = Yes, 0 = No): 1
+ 
+  The dish you have to guess is!: ****
+  Enter guess: m
+ 
+  Updated word: M*m*
+  10 Hearts remaining!
+  _____________________________________________________________________
+  Enter guess: o
+ 
+  Updated word: Momo
+  10 Hearts remaining!
+  _____________________________________________________________________
+  _____________________________________________________________________
+  (IMAGE APPEARS)
+  Congratulations! You gain an extra heart!
+  If you continue to play you will have 11 hearts!
+  Would you like to continue playing? (1 = Yes, 0 = No): 
+
+
+3rd run: (Continuation from 2nd run) 
+  Would you like to continue playing? (1 = Yes, 0 = No): 1
+ 
+  The dish you have to guess is!: *******
+  Enter guess: a
+ 
+  This is incorrect!
+  Updated word: *******
+  10 Hearts remaining!
+  _____________________________________________________________________
+  Enter guess: z
+ 
+  This is incorrect!
+  Updated word: *******
+  9 Hearts remaining!
+  _____________________________________________________________________
+  Enter guess: n
+ 
+  Updated word: *****n*
+  9 Hearts remaining!
+  _____________________________________________________________________
+  Enter guess: p
+ 
+  Updated word: P****n*
+  9 Hearts remaining!
+  _____________________________________________________________________
+  Enter guess: o
+ 
+  Updated word: Po***n*
+  9 Hearts remaining!
+  _____________________________________________________________________
+  Enter guess: l
+ 
+  This is incorrect!
+  Updated word: Po***n*
+  8 Hearts remaining!
+  _____________________________________________________________________
+  Enter guess: e
+ 
+  Updated word: Po***ne
+  8 Hearts remaining!
+  _____________________________________________________________________
+  Enter guess: e
+ 
+  Updated word: Po***ne
+  8 Hearts remaining!
+  _____________________________________________________________________
+  Enter guess: e
+ 
+  Updated word: Po***ne
+  8 Hearts remaining!
+  _____________________________________________________________________
+  Enter guess: f
+ 
+  This is incorrect!
+  Updated word: Po***ne
+  7 Hearts remaining!
+  _____________________________________________________________________
+  Enter guess: f
+ 
+  This is incorrect!
+  Updated word: Po***ne
+  6 Hearts remaining!
+  _____________________________________________________________________
+  Enter guess: f
+ 
+  This is incorrect!
+  Updated word: Po***ne
+  5 Hearts remaining!
+  _____________________________________________________________________
+  Enter guess: f
+ 
+  This is incorrect!
+  Updated word: Po***ne
+  4 Hearts remaining!
+  _____________________________________________________________________
+  Enter guess: f
+ 
+  This is incorrect!
+  Updated word: Po***ne
+  3 Hearts remaining!
+  _____________________________________________________________________
+  Country: Canada
+  First letter of the word: P
+  Contains potatoes
+  _____________________________________________________________________
+  Enter guess: u
+ 
+  Updated word: Pou**ne
+  3 Hearts remaining!
+  _____________________________________________________________________
+  Enter guess: t
+ 
+  Updated word: Pout*ne
+  3 Hearts remaining!
+  _____________________________________________________________________
+  Enter guess: i
+ 
+  Updated word: Poutine
+  3 Hearts remaining!
+  _____________________________________________________________________
+  _____________________________________________________________________
+  (IMAGE APPEARS) 
+  Congratulations! You gain an extra heart!
+  If you continue to play you will have 4 hearts!
+  Would you like to continue playing? (1 = Yes, 0 = No): 
+
+
+4th run: (Continuation from 3rd run)
+  Would you like to continue playing? (1 = Yes, 0 = No): 1
+ 
+  The dish you have to guess is!: *******
+  Enter guess: 1
+ 
+  This is incorrect!
+  Updated word: *******
+  3 Hearts remaining!
+  _____________________________________________________________________
+  Country: India
+  First letter of the word: B
+  Contains rice
+  _____________________________________________________________________
+  Enter guess: ae
+ 
+  Enter guess: pq
+ 
+  Enter guess: c
+ 
+  This is incorrect!
+  Updated word: *******
+  2 Hearts remaining!
+  _____________________________________________________________________
+  Enter guess: b
+ 
+  Updated word: B******
+  2 Hearts remaining!
+  _____________________________________________________________________
+  Enter guess: i
+ 
+  Updated word: Bi****i
+  2 Hearts remaining!
+  _____________________________________________________________________
+  Enter guess: r
+ 
+  Updated word: Bir***i
+  2 Hearts remaining!
+  _____________________________________________________________________
+  Enter guess: y
+ 
+  Updated word: Biry**i
+  2 Hearts remaining!
+  _____________________________________________________________________
+  Enter guess: a
+ 
+  Updated word: Birya*i
+  2 Hearts remaining!
+  _____________________________________________________________________
+  Enter guess: n
+ 
+  Updated word: Biryani
+  2 Hearts remaining!
+  _____________________________________________________________________
+  _____________________________________________________________________
+  (IMAGE APPEARS)
+  Congratulations! You gain an extra heart!
+  If you continue to play you will have 3 hearts!
+  Would you like to continue playing? (1 = Yes, 0 = No): 
+
+
+5th run: (Continuation from 4th run)
+  Would you like to continue playing? (1 = Yes, 0 = No): 1
+ 
+  The dish you have to guess is!: ****** ****
+  Country: China
+  First letter of the word: P
+  Contains duck
+  _____________________________________________________________________
+  Enter guess: z
+ 
+  This is incorrect!
+  Updated word: ****** ****
+  2 Hearts remaining!
+  _____________________________________________________________________
+  Enter guess: v
+ 
+  This is incorrect!
+  Updated word: ****** ****
+  1 Hearts remaining!
+  _____________________________________________________________________
+  Enter guess: n
+ 
+  Updated word: ****n* ****
+  1 Hearts remaining!
+  _____________________________________________________________________
+  Enter guess: r
+ 
+  This is incorrect!
+  Updated word: ****n* ****
+  You have no more hearts remaining. Thank you for playing!
+  Goodbye!
+  (GOODBYE IMAGE APPEARS)
+
+
+Comments on Testing: 
+
+1st:
+- Input of 0 quits the game which results in the goodbye image appearing
+
+2nd: 
+- The word is guessed correctly in the end with no mistakes resulting in a total of 11 hearts
+
+3rd: 
+- This run is a continuation from the 2nd run meaning the player starts with 11 hearts
+- There was incorrect input which caused the hearts to deplete to 3
+- At 3 hearts, the hint appears
+- Note when incorrect input was entered more than once, the program still depletes the heart. But when correct input was entered more than once, the heart does not deplete
+- The word ends up being guessed which results in 4 hearts because of the +1 when a word is guessed correctly 
+
+4th: 
+- This is also a continuation from the previous run, meaning it starts with 4 hearts. 
+- When invalid input is entered, for example 'ae' or 'pq' then the program will continue asking the user to enter a new input
+- Ends up guessing the word with 2 hearts remaining, so the new hearts = 3
+
+5th: 
+- Continuation from previous run, starting with 3 hearts 
+- Since the player has 3 hearts, the program gives the player a hint automatically 
+- Wrong inputs were entered and eventually the hearts ran out resulting in the program ending
+- The goodbye image is displayed 
